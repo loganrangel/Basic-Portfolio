@@ -1,0 +1,123 @@
+body {
+  background-color: #4aaaa5;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/wall4/wall4.png);
+  margin: 0px 0px 0px 0px;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  text-align: left;
+}
+.head {
+  width: 960 px;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.Logan {
+  color: white;
+  background-color: #4aaaa5;
+  text-align: center;
+  width: 250px;
+  height: 80px;  
+  justify-content: center;
+  margin-left: 265px;
+  margin-top: 0px;
+}
+#space {
+  width: 300px;
+}
+#navi {
+  width: 410px;
+  height: 80px;
+  color: #777777;
+  margin-right: 0px;
+}
+
+p {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+nav {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+header {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+  background-image: url(../images/wall4/wall4.png);
+}
+main {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  width: 960px;
+  margin: auto;
+  padding: 0px 0px 20px 0px;
+}
+img {
+  width: 35%;
+  float: left;
+  padding: 20px;
+}
+.wrapper {
+  display: grid;
+  width: 50%;
+  height: 100%;
+  grid-template-columns: 2;
+  grid-auto-rows: 3;
+  align-items: center;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #4aaaa5;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2;
+}
+.four {
+  grid-column: 2;
+  grid-row: 2;
+}
+.five {
+  grid-column: 1;
+  grid-row: 3;
+}
+form {
+  text-align: left;
+  
+}
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+footer {
+  clear: both;
+  background-color: #777777;
+  color: #ffffff;
+  height: 25px;
+  padding-top: 5px;
+  text-align: center;
+  border-top: solid;
+  border-top-color: teal;
+  border-top-width: 5px;
+}
